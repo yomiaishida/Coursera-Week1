@@ -7,21 +7,20 @@
 }
 
 body {
-  background: black;
-  color: #fff;
+  background: #fff;
+  color: black;
   height: 100vh;
-  overflow: hidden;
+  overflow: auto;
 }
 
-a {
+/* a {
   color: #fff;
-}
+} */
 
 header nav {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  align-items: baseline;
   padding: 1rem;
 }
 
@@ -31,8 +30,7 @@ header nav a {
   text-decoration: none;
 }
 
-header nav button {
-  padding: 0.5rem;
+header nav img {
   border-radius: 50%;
 }
 
@@ -44,38 +42,73 @@ header nav button {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background: blue;
-  height: 100vh;
+  margin-top: 3.5rem;
 }
 
-img {
+.container .center img {
   display: block;
-  background: #fff;
   margin: 2rem auto;
 }
 
 .container .center input {
   display: block;
-  width: 500px;
+  width: 600px;
   padding: 0.78rem;
+  border: 0.1px rgba(34, 34, 34, 0.2) solid;
   border-radius: 50px;
   margin-bottom: 1.5rem;
 }
 
 .container .center button {
-  padding: 8px 15px;
+  padding: 10px 18px;
   border-radius: 5px;
   margin-right: 5px;
   margin-bottom: 20px;
   cursor: pointer;
+  border: transparent;
+  color: #5f6368;
 }
 
 .container .center p {
+  font-size: 15px;
 }
 
-.container footer {
-  align-items: flex-end;
-  justify-content: flex-end;
-  background: red;
-  align-self: baseline;
+.container .center p a {
+  margin-right: 0.5rem;
+  /* font-size: 13px; */
+  text-decoration: none;
+}
+
+.container .center p a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: #f2f2f2;
+}
+
+footer p {
+  padding: 0.5rem 1.5rem 0.5rem 2rem;
+  color: rgba(0, 0, 0, 0.54);
+  border: 0.1px rgba(34, 34, 34, 0.2) solid !important;
+}
+
+.footer-ads {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 1rem 1rem 2rem;
+}
+
+footer a {
+  text-decoration: none;
+  margin-right: 1.5rem;
+  color: #5f6368;
+}
+
+footer a:hover {
+  text-decoration: underline;
 }
