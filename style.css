@@ -10,6 +10,7 @@ body {
   background: black;
   color: #fff;
   height: 100vh;
+  overflow: hidden;
 }
 
 a {
@@ -44,6 +45,7 @@ header nav button {
   justify-content: center;
   flex-direction: column;
   background: blue;
+  height: 100vh;
 }
 
 img {
@@ -54,12 +56,26 @@ img {
 
 .container .center input {
   display: block;
-  width: 400px;
-  padding: 0.8rem;
-  border-radius: 20px;
+  width: 500px;
+  padding: 0.78rem;
+  border-radius: 50px;
   margin-bottom: 1.5rem;
 }
 
-footer {
+.container .center button {
+  padding: 8px 15px;
+  border-radius: 5px;
+  margin-right: 5px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.container .center p {
+}
+
+.container footer {
+  align-items: flex-end;
   justify-content: flex-end;
+  background: red;
+  align-self: baseline;
 }
