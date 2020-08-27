@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@600&display=swap" rel="stylesheet');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: black;
+  color: #fff;
+  height: 100vh;
+}
+
+a {
+  color: #fff;
+}
+
+header nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: baseline;
+  padding: 1rem;
+}
+
+header nav a {
+  margin-right: 1rem;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+header nav button {
+  padding: 0.5rem;
+  border-radius: 50%;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: blue;
+}
+
+img {
+  display: block;
+  background: #fff;
+  margin: 2rem auto;
+}
+
+.container .center input {
+  display: block;
+  width: 400px;
+  padding: 0.8rem;
+  border-radius: 20px;
+  margin-bottom: 1.5rem;
+}
+
+footer {
+  justify-content: flex-end;
+}
